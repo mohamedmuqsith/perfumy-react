@@ -22,6 +22,12 @@ ul{
     margin-left: 60%;
     display: inline;
 }
+@media screen and (max-width: 600px){
+    ul,li{
+        display: none;
+    }
+    
+}
 
 /* Step 10 Change the color of the a tag to grey
  and adjust text decoration
